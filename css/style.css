@@ -294,4 +294,5 @@ textarea::placeholder {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
+  cursor: pointer;
 }
