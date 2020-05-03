@@ -236,6 +236,22 @@ footer {
   border-radius: 2px;
   background-color: rgb(255, 255, 255);
 }
+[type="user-name"]:focus {
+  outline: 3px dashed;
+  outline-color: var(--decor_color);
+}
+[type="email"]:focus {
+  outline: 3px dashed;
+  outline-color: var(--decor_color);
+}
+[type="user-subject"]:focus {
+  outline: 3px dashed;
+  outline-color: var(--decor_color);
+}
+[type="textarea"]:focus {
+  outline: 3px dashed;
+  outline-color: var(--decor_color);
+}
 
 input::placeholder {
   font-size: 14px;

@@ -70,6 +70,8 @@
             aria-describedby="user-name-hint"
             name="user-name"
             type="user-name"
+            maxlength="50"
+            required
           />
           <input
             placeholder="your e-mail *"
@@ -77,6 +79,8 @@
             aria-describedby="user-email-hint"
             name="email"
             type="email"
+            maxlength="50"
+            required
           />
           <input
             placeholder="subject"
@@ -84,6 +88,8 @@
             aria-describedby="user-subject-hint"
             name="subject"
             type="user-subject"
+            maxlength="50"
+            required
           />
         </div>
         <div class="textarea__col">
@@ -91,6 +97,9 @@
             placeholder="Your message*"
             id="message"
             name="message"
+            type="textarea"
+            maxlength="500"
+            required
           ></textarea>
         </div>
         <button class="button__submit" type="submit">Send message</button>
