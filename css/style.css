@@ -263,6 +263,10 @@ footer {
   outline: 3px dashed;
   outline-color: var(--decor_color);
 }
+textarea:focus {
+  outline: 3px dashed;
+  outline-color: var(--decor_color);
+}
 
 input::placeholder {
   font-size: 14px;
