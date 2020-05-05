@@ -302,7 +302,7 @@ textarea::placeholder {
 .button__submit {
   width: 240px;
   height: 66px;
-  margin-left: 350px;
+  margin: 0 auto;
   background-color: var(--decor_color);
   border: none;
   border-radius: 3px;
