@@ -255,19 +255,11 @@ footer {
   line-height: 1.2;
 }
 
-[type="user-name"]:focus {
+[type="text"]:focus {
   outline: 3px dashed;
   outline-color: var(--decor_color);
 }
 [type="email"]:focus {
-  outline: 3px dashed;
-  outline-color: var(--decor_color);
-}
-[type="user-subject"]:focus {
-  outline: 3px dashed;
-  outline-color: var(--decor_color);
-}
-[type="textarea"]:focus {
   outline: 3px dashed;
   outline-color: var(--decor_color);
 }
