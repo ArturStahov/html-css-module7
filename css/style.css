@@ -233,8 +233,9 @@ section {
   font-size: 0.875rem;
   font-family: var(--second_font);
   color: rgb(119, 119, 119);
-  line-height: 1.2;
+  line-height: 1.7;
   font-weight: 400;
+  letter-spacing: -0.35px;
 }
 
 footer {
